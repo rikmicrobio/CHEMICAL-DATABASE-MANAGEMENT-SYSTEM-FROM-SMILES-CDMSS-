@@ -4,7 +4,7 @@
 ![graphical_info](https://user-images.githubusercontent.com/45164491/213921484-d7221dff-fe04-40e4-be98-e4110a2c2b96.jpg)
 <code style="background:cyan;color:black">*Note: a set of 500 Lipinski and ADME screened molecules are attached as example. These molecules are Dock ready compounds!!! </code>
 ### *Step-1:* 
-> #### a) Read smilesfrom the csv file and assign it to a dataframe 'df'.
+> #### a) Read smiles from the **".csv"** file and assign it to a dataframe **'df'**.
 > #### b) Calculate the molecular properties. 
 ### Step-2: 
 #### This code block is adding the calculated properties that were stored in the empty lists (mw, clogp, clogs, tpsa, hba, hbd, and rot_bonds) to the dataframe as new columns, labeled 'MW', 'ClogP', 'ClogS', 'TPSA', 'HBA', 'HBD', and 'Rotatable Bonds'.
